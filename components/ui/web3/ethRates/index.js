@@ -12,6 +12,7 @@ export default function EthRates() {
                     {
                         eth.data ? <>
                             <Image
+                                unoptimized
                                 layout="fixed"
                                 height="35"
                                 width="35"
@@ -34,6 +35,7 @@ export default function EthRates() {
                             {eth.perItem}
                         </span>
                             <Image
+                                unoptimized
                                 layout="fixed"
                                 height="35"
                                 width="35"

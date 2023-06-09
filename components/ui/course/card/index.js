@@ -1,6 +1,5 @@
 import Image from 'next/legacy/image'
 import Link from 'next/link'
-import {Message} from "@components/ui/common";
 import {AnimateKeyframes} from "react-simple-animate";
 
 export default function Card({ course, disabled, Footer, state }) {
@@ -9,6 +8,7 @@ export default function Card({ course, disabled, Footer, state }) {
             <div className="flex h-full">
                 <div className="flex-1 h-full next-image-wrapper">
                     <Image
+                        unoptimized
                         className={`object-cover ${disabled && "filter grayscale"}`}
                         src={course.coverImage}
                         layout="responsive"

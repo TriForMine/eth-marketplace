@@ -16,6 +16,7 @@ export default function OwnedCourseCard({children, course}) {
                 <div className="flex-1">
                     <div className="h-72 sm:h-full next-image-wrapper">
                         <Image
+                            unoptimized
                             className="object-cover"
                             src={course.coverImage}
                             alt={course.title}
