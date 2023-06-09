@@ -24,6 +24,7 @@
     "web3": "^1.10.0"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.0.2",
     "@truffle/hdwallet-provider": "^2.1.12"
   }
 }
